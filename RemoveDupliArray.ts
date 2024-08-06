@@ -7,4 +7,5 @@ function removeDuplicates(arr: any[]): any[] {
 }
 // Test Output
 const uniqueArray = removeDuplicates(testArray);
+console.log(`Original Array: ${testArray}`);
 console.log(`Array without duplicates: ${uniqueArray}`);
